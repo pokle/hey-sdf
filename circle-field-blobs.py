@@ -1,5 +1,8 @@
 import math, time
 
+# shades = ' -"*roVwdN'
+shades = 'NdwVor*"- '
+
 def firstdecimal(v: float) -> str:
   return int(v*10)%10
 
@@ -7,12 +10,13 @@ def circle(x: float, y: float, origin_x: float, origin_y: float, radius: float) 
   return math.sqrt((origin_x - x)**2 + (origin_y-y)**2) - radius
 
 def sample(x: float, y: float) -> str:
-  Δ = circle(x, y, -1.0, -0.5, (time.monotonic() % 3)/2) * \
-      circle(x, y, 1.0, -0.5, (time.monotonic() % 50)/40) * \
-      circle(x, y, -1.0, 0.5, (time.monotonic() % 6)/5) * \
-      circle(x, y, 1.0, 0.5, (time.monotonic() % 7)/6)
+  base = time.time()
+  Δ = circle(x, y, -1.0, -0.5, (base % 30)/30) * \
+      circle(x, y, 1.0, -0.5, (base % 50)/50) * \
+      circle(x, y, -1.0, 0.5, (base % 70)/70) * \
+      circle(x, y, 1.0, 0.5, (base % 110)/110)
 
-  return str(firstdecimal(Δ))
+  return shades[(firstdecimal(Δ))]
 
 
 while True:
@@ -26,4 +30,4 @@ while True:
       frame_chars.append(sample(remapped_x, remapped_y))
     frame_chars.append('\n')
   print('\033[2J' + ''.join(frame_chars))
-  time.sleep(1/60)
+  time.sleep(1/30)
