@@ -3,9 +3,9 @@ import time
 def sample(x: int, y: int) -> str:
   # draw an alternating checkboard pattern
   if (x + y + int(time.time())) % 2:
-    return '#'
+    return 'o'
   else:
-    return ' '
+    return '/'
 
 while True:
   # loop over each position and sample a character

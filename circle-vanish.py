@@ -25,4 +25,4 @@ while True:
       frame_chars.append(sample(remapped_x, remapped_y, state))
     frame_chars.append('\n')
   print('\033[2J' + ''.join(frame_chars))
-  time.sleep(1/30)
+  time.sleep(1/60)
