@@ -3,7 +3,7 @@ import math, time
 shades = ' -~=+*%$#@'
 
 def firstdecimal(v: float) -> str:
-  return int(v*10)%10
+  return int(v*21)%10
 
 def circle(x: float, y: float, origin_x: float, origin_y: float, radius: float) -> float:
   return math.sqrt((origin_x - x)**2 + (origin_y-y)**2) - radius
