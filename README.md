@@ -27,24 +27,24 @@ These are some SDF (Signed distance functions) examples derived from the tutoria
 
 ## circle-field-blobs.py
 ```
- NNNNddwwVVVooorrr****"""""---------------------""""****rrroooVVVwwddNNNN --"**r
-NNNNNddwwwVVVooorrrr****"""""""-------------"""""""****rrroooVVVwwwddNNNN  --""*
-NNNddddwwwVVVoooorrrr******"""""""""""""""""""""*****rrrrooooVVVwwwddNNNNN   ---
-dddddwwwwwVVVVoooorrrrr******"""""""""""""""""******rrrrroooVVVVwwwdddNNNNNN
-wwwwwwwwwVVVVVooooorrrrr*********""""""""""********rrrrrooooVVVVwwwwdddNNNNNNNNN
-wwwwwwwwVVVVVVoooooorrrrrr************************rrrrroooooVVVVwwwwdddddNNNNNNN
-wwwwwwwVVVVVVVVoooooorrrrrrr********************rrrrrrroooooVVVVwwwwwwdddddddNNN
-VVwwwwVVVVVVVVVooooooorrrrrrr******************rrrrrrrooooooVVVVVwwwwwwddddddddd
-VVwwwwwVVVVVVVVVooooooorrrrrrrr***************rrrrrrrroooooVVVVVVwwwwwwwdddddddd
-wwwwwwwwwVVVVVVVVooooooorrrrrrrrr************rrrrrrrrooooooVVVVVVwwwwwwwwwdddddd
-wwwwwwwwwwwVVVVVVVooooooorrrrrrrrr**********rrrrrrrrrooooooVVVVVVwwwwwwwwddddddd
-wwwwwwwwwwwwwVVVVVVoooooorrrrrrrrrr********rrrrrrrrrrooooooVVVVVVwwwwwwwdddddddd
-dddddddddwwwwwwVVVVVoooooorrrrrrrrr********rrrrrrrrrroooooVVVVVVwwwwwwdddddddddd
-NNNNNNddddddwwwwVVVVVooooorrrrrrrrr*********rrrrrrrrroooooVVVVVwwwwwwdddddddNNNN
-NNNNNNNNNddddwwwwVVVVVooooorrrrrrr***********rrrrrrrroooooVVVVVwwwwdddddNNNNNNNN
-    NNNNNNNddddwwwVVVVooooorrrrrr*************rrrrrrroooooVVVVwwwwddddNNNNNNNNNN
-----   NNNNNNdddwwwVVVoooorrrrrr****************rrrrrrooooVVVVwwwddddNNNNNNN
-**"""--  NNNNNddwwwVVVoooorrrrr******************rrrrrooooVVVVwwwdddNNNNN   ----
-rrr**""-- NNNNNddwwVVVooorrrrr*********************rrrrooooVVVwwwddNNNNN  --""**
-VVoor**"-- NNNNddwwVVVooorrrr******"""""""""""******rrrroooVVVwwwddNNNN  --"**rr
+ %%$$$$####@@@@@@@                @@@@@###$$%%%**++=~~-  @#$$%*+=~-  @#%*+=- #$*=
+%%%%%%%$$$$$#######@@@@@@@@@@@@@######$$$%%%**++==~~-- @@#$%**+=~-  @#$%*=~- #$%
+%%%*%%%%%%%%$$$$$$$$#############$$$$$%%%%***++==~~--  @##$%**+=~-   @#$%*+=~- @
+%***********%%%%%%%%$$$$$$$$$$$$$$%%%%%%***+++==~~--  @@#$$%**+==~-   @#$%*++=~~
+****++++++*********%%%%%%%%%%%%%%%%%%****++++==~~~--  @@##$%%*++=~~-   @##$%%***
+**+++++++++++++++***********************++++===~~---  @@##$$%**++=~~--   @@###$$
++++============++++++++**************+++++====~~~---  @@##$$%%**++==~~--     @@@
+===~~~~~~~~~~========++++++++++++++++++++=====~~~---  @@###$$%%**++===~~----    
+~~~~--------~~~~~~=======+++++++++++++++=====~~~~---  @@@##$$$%%***+++===~~~~~~-
+---        ------~~~~~======+++++++++++======~~~~---   @@@##$$$%%%***++++=======
+ @@@@@@@@@     -----~~~~========++++++=======~~~~----   @@@##$$$%%%%****++++++++
+###########@@@    ----~~~~====================~~~~---    @@@###$$$%%%%**********
+%%%%%%%$$$$###@@@   ---~~~~===================~~~~~---    @@@###$$$$%%%%%*******
++++++***%%%$$$##@@@  ---~~~~=======+++++========~~~~----   @@@####$$$$%%%%%%%%%%
+~~~~===++**%%$$###@@  ---~~~~=====+++++++++======~~~~----   @@@####$$$$%%%%%%%%%
+    --~~==++*%%$$##@@  --~~~=====+++++++++++++=====~~~~---   @@@@###$$$$%%%%%%%%
+##@@   --~==+*%%$$#@@  --~~~====+++++++++++++++++====~~~~---   @@@###$$$$%%%%%%%
+*%%$$#@  -~~=+*%%$##@  --~~~===+++++**********+++++====~~~---   @@@###$$$%%%****
+~==+*%$@  -~=++*%$##@  --~~===+++*****************++++===~~~---   @@##$$$%%****+
+@ -~=*%$@  -~=+*%$##@ --~~==+++****%%%%%%%%%%%%%%****++++==~~~---  @@##$$%%**++=
 ```
